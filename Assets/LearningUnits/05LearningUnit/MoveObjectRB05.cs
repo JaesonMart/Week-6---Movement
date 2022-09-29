@@ -7,6 +7,9 @@ public class MoveObjectRB05 : MonoBehaviour
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update
+
+    //Manipulated the weights and then removed the isKinematic tag off of the red block.
+
     void Start()
     {
         moveDirection = new Vector3(-2, 0,0); // Don't change this!

@@ -5,8 +5,11 @@ using UnityEngine;
 public class MoveObjectRB03 : MonoBehaviour
 {
     Rigidbody rigidbody;
-    Vector3 moveDirection;
+    [SerializeField] Vector3 moveDirection;
     // Start is called before the first frame update
+
+    // Pretty much the same as the previous scene but had to manipulate the masses so that the blue was not too heavy.
+
     void Start()
     {
         moveDirection = new Vector3(-5, 0, 0); // Don't change this!
